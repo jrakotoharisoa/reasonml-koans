@@ -16,7 +16,7 @@
     "ReasonML"
   ],
   "devDependencies": {
-    "bs-jest": "^0.2.0",
+    "@glennsl/bs-jest": "^0.3.0",
     "bs-json": "^0.2.4",
     "bs-platform": "^2.1.0"
   },
