@@ -8,7 +8,7 @@ let () =
       expect(__bool__) |> toEqual(true)
     );
 
-    test("false should be false", () =>
+    test("false should be true", () =>
       expect(__bool__) |> toEqual(false)
     );
   });
