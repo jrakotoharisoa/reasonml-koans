@@ -1,0 +1,27 @@
+{
+  "name": "reasonml-koans",
+  "description": "Koans to learn reasonml",
+  "version": "1.0.0",
+  "repository": "https://github.com/jrakotoharisoa/reasonml-koans.git",
+  "author": "jrakotoharisoa <johann.rakotoharisoa@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReasonML"
+  ],
+  "devDependencies": {
+    "bs-jest": "^0.2.0",
+    "bs-json": "^0.2.4",
+    "bs-platform": "^2.1.0"
+  },
+  "dependencies": {},
+  "jest": {
+    "testRegex": "\\_Koan\\.js"
+  }
+}

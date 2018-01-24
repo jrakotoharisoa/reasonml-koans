@@ -1,0 +1,22 @@
+{
+  "name": "reasonml-koans",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "dir": "koans",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": [
+    "bs-jest"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "reason": {},
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "refmt": 3
+}
