@@ -18,24 +18,26 @@ let () =
 
     test("should allow to see previous bindings in block", () => {
       let animal = "dog";
-      if(true){
-        expect(__string__).toEqual(animal);
-      }
+      {
+        expect(__string__) |> toEqual(animal);
+      };
     });
 
     test("should allow blocks to have their own scope", () => {
       let animal = "dog";
-      if(true){
+      {
         let animal = "cat";
-        expect(__string__).toEqual(animal);
-      }
+        expect(__string__) |> toEqual(animal);
+      };
     });
 
     test("should prevent to see bindings define outside of a block", () => {
       let animal = "dog";
-      if(true){
+      {
         let animal = "cat";
-      }
-      expect(__string__).toEqual(animal);
+      };
+      expect(__string__) |> toEqual(animal);
     });
+
+
   });
