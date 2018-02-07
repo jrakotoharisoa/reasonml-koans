@@ -12,7 +12,7 @@ let __char__ = 'a';
 
 let __tuple__ = (0, 0);
 
-let ___tuple___ = ((0 : int), (0.0 : float), ("0" : string));
+let ___tuple___ = (0: int, 0.0: float, "0": string);
 
 let ____tuple____ = (0, 0.0);
 
