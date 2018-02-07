@@ -4,10 +4,11 @@
   "sources": [
     {
       "dir": "koans",
+      "type": "dev",
       "subdirs": true
     }
   ],
-  "bs-dependencies": [
+  "bs-dev-dependencies": [
     "@glennsl/bs-jest"
   ],
   "package-specs": {
